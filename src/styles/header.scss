@@ -147,11 +147,13 @@
   &__logo {
     display: flex;
     align-items: center;
+    flex-shrink: 1;
 
     img {
       display: block;
       width: 228px;
-      height: 24px;
+      max-width: 100%;
+      height: auto;
       object-fit: contain;
     }
   }
