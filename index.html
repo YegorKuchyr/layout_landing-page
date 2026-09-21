@@ -189,12 +189,14 @@
 
         <div class="contact__content">
           <form class="contact__form" onsubmit="this.reset(); return false;">
-            <input type="text" class="contact__input"
-             placeholder="John Smith" required>
-            <input type="email" class="contact__input"
-            placeholder="johnsmith@example.com" required>
-            <textarea class="contact__textarea" placeholder="I would like to order..."
-             required></textarea>
+            <input type="text" name="name"
+            class="contact__input" placeholder="John Smith"
+            required>
+            <input type="email" name="email"
+            class="contact__input" placeholder="johnsmith@example.com"
+            required>
+            <textarea name="message" class="contact__textarea"
+            placeholder="I would like to order..." required></textarea>
             <button type="submit" class="btn btn--orange contact__submit">Send</button>
           </form>
 

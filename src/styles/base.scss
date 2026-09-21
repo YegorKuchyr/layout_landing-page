@@ -1,13 +1,6 @@
-html,
-body,
-div,
-header,
-section,
-h1,
-a,
-button,
-span,
-img {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
